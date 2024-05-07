@@ -1,11 +1,34 @@
 public class Restaurant {
 
-    String name;
-    String adress;
+    private String name;
+    private String adress;
+    private String worktime;
 
-    String worktime;
+    public String getName() {
+        return name;
+    }
 
-    public  Restaurant(String  name,String adress ,  String  worktime) {
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAdress() {
+        return adress;
+    }
+
+    public void setAdress(String adress) {
+        this.adress = adress;
+    }
+
+    public String getWorktime() {
+        return worktime;
+    }
+
+    public void setWorktime(String worktime) {
+        this.worktime = worktime;
+    }
+
+    public  Restaurant(String  name, String adress , String  worktime) {
         this.name =name  ;
         this. adress  =  adress ;
         this. worktime  =  worktime ;

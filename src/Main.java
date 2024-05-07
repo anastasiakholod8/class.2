@@ -6,15 +6,15 @@ public class Main {
 
 
         System.out.println(" Клас  Restaurant ");
-        System.out.println(" У ресторані- " + obj1.name + "за адресою -" + obj1.adress + ",робочий час :"+ obj1.worktime);
+        System.out.println(" У ресторані- " + obj1.getName()  + "за адресою -" + obj1.getAdress()  + ",робочий час :"+ obj1.getWorktime() );
 
 
         System.out.println(" Клас  Personnel ");
-        System.out.println(" Загальна кількість персоналу: " +"" +( obj2.cooks+obj2.waiters+obj2.guards));
+        System.out.println(" Загальна кількість персоналу: " +"" +( obj2.getCooks()+obj2.getWaiters()+obj2.getGuards()));
 
 
         System.out.println(" Клас  Menu");
-        System.out.println("Кількість страв:" +"" +(obj3.hotmeals+obj3.appetizer+obj3.drinks));
+        System.out.println("Кількість страв:" +"" +(obj3.getHotmeals()+obj3.getAppetizer()+obj3.getDrinks()));
 
     }
 
