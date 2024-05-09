@@ -34,4 +34,9 @@ public class Restaurant {
         this. worktime  =  worktime ;
 
     }
+
+    void Information(){
+        System.out.println(" У ресторані- " + name + "за адресою -" + adress + ",робочий час :" + worktime);
+
+    }
 }

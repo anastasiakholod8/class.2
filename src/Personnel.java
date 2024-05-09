@@ -33,4 +33,7 @@ public class Personnel {
         this.waiters = waiters;
         this.guards = guards;
     }
+    void findAmount(){
+        System.out.println("У ресторані працює "  +(waiters+guards+cooks) +" людей");
+    }
 }
